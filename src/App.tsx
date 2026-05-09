@@ -20,7 +20,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/nyota-clone/">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/dashboard" element={<UserDashboard />} />

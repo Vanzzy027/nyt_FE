@@ -40,7 +40,7 @@ interface ApplicationModalProps {
   onClose: () => void;
   program: Program | null;
 }
-const paystackPublicKey = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY;
+
 export default function ApplicationModal({
   isOpen,
   onClose,
